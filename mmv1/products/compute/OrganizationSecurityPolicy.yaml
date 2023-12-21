@@ -18,6 +18,7 @@ base_url: 'locations/global/securityPolicies?parentId={{parent}}'
 self_link: 'locations/global/securityPolicies/{{policy_id}}'
 create_url: 'locations/global/securityPolicies?parentId={{parent}}'
 update_verb: :PATCH
+deprecation-message: hello 
 description: |
   Organization security policies are used to control incoming/outgoing traffic.
 references: !ruby/object:Api::Resource::ReferenceLinks
